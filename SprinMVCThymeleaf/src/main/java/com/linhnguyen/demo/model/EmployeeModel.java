@@ -2,7 +2,7 @@ package com.linhnguyen.demo.model;
 
 import java.math.BigDecimal;
 
-public class EmloyeeModel {
+public class EmployeeModel {
 
 	private String id;
 	private String name;

@@ -5,18 +5,18 @@ import java.util.List;
 
 public class DepartmentModel {
 
-	private List<EmloyeeModel> emloyeesList;
+	private List<EmployeeModel> employeesList;
 
 	public DepartmentModel() {
-		emloyeesList = new ArrayList<EmloyeeModel>();
+		employeesList = new ArrayList<EmployeeModel>();
 	}
 
-	public List<EmloyeeModel> getEmloyeesList() {
-		return emloyeesList;
+	public List<EmployeeModel> getEmployeesList() {
+		return employeesList;
 	}
 
-	public void setEmloyeesList(List<EmloyeeModel> emloyeesList) {
-		this.emloyeesList = emloyeesList;
+	public void setEmloyeesList(List<EmployeeModel> employeesList) {
+		this.employeesList = employeesList;
 	}
 
 }

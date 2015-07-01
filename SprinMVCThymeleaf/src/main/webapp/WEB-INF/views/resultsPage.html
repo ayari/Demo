@@ -29,10 +29,10 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr th:each="employee, rowStat : *{department.emloyeesList}"
+						<tr th:each="employee, rowStat : *{department.employeesList}"
 							th:class="${rowStat.even ? 'even' : 'odd'}">
 							<td class="column"
-								th:text="*{department.emloyeesList[__${rowStat.index}__].id}">...</td>
+								th:text="*{department.employeesList[__${rowStat.index}__].id}">...</td>
 							<td class="column" th:text="${employee.name}">...</td>
 							<td class="column" th:text="${employee.designation}">...</td>
 							<td class="column"

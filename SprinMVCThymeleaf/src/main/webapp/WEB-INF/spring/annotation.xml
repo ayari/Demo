@@ -16,7 +16,6 @@
 		(if available). -->
 	<context:annotation-config />
 	
-	<!--This switches on the load-time weaving for @Configurable annotated classes 
-    <context:load-time-weaver/>
-	-->
+	<mvc:annotation-driven />
+	
 </beans>  
